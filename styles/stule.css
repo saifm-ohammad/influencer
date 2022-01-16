@@ -1,0 +1,153 @@
+/* fonts  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+/* basic styles  */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #3A3A3A;
+}
+.title{
+    font-size: 24px;
+}
+.big-font{
+    font-size: 52px;
+    margin-bottom: 0px;
+}
+
+/* header styles  */
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    width: 1022px;   
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* first section styles  */
+
+.first{
+    display: flex;
+    justify-content: center;
+    background-color: yellowgreen;
+}
+
+.first-left{
+    width: 582px;
+    height: 270px;
+    
+    margin:50px
+}
+.first-left p {
+    margin-top: 0px;
+    font-weight: 600;
+}
+.first-right{
+    margin-left: 30px;
+}
+
+/* pre-book button styles  */
+
+.prebook-button{
+    background-color: #E02C6D;
+    font-size: 16px;
+    width: 196px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.prebook-button a {
+    color: white;
+    text-decoration: none;
+}
+.fas{
+    margin-left: 5px;
+}
+.prebook-button:hover{
+    background-color: #f5075ec0;
+}
+
+/* products section styles 
+ */
+ .second-sec{
+    width: 1047px;
+    
+    
+ }
+ .medium-font{
+     font-size: 28px;
+     font-weight: 600;
+     text-align: center;
+ }
+ .products{
+     padding: 10px;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-column-gap: 20px;
+     grid-row-gap: 20px;
+ }
+.product{
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0, .5);
+    padding: 14px;
+}
+ .no-margin{
+     margin: 0px;
+ }
+ .product-name{
+     font-weight: 500;
+     font-size: 28px;
+ }
+.price{
+    font-weight: 400;
+    font-size: 24px;
+}
+.fas{
+    width: 16px;
+    height: 16px;
+    color: #FB8200;
+}
+.rating{
+    display: flex;
+    align-items: center;
+}
+.rating .stars{
+    margin-right: 20px;
+}
+.see-more, #pink{
+    color: #E02C6D;
+    font-size: 16px;
+    text-align: end;
+}
+
+
+/* third section styles  */
+
+.third-sec{
+    width: 1110px;
+    
+    margin-top: 100px;
+    display: flex;
+}
+.third-left{
+    
+    margin-left: 100px;
+}
+.last-font{
+    font-size: 38px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
