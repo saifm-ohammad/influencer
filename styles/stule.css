@@ -205,6 +205,9 @@ header{
     .product-img img{
         width: 100%;
     }
+    .see-more{
+        margin-right: 20px;
+    }
     .third-sec{
         width: 100%;
         flex-direction: column;
@@ -247,6 +250,9 @@ header{
     }
     .product-img img{
         width: 100%;
+    }
+    .see-more{
+        margin-right: 20px;
     }
     .third-sec{
         width: 100%;
